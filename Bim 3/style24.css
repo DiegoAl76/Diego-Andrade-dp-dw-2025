@@ -1,0 +1,38 @@
+html { font-size: 62.5%; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin: 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 50rem;
+}
+
+.btn-contraste-ruim {
+  background-color: #ffffff;
+  color: #cccccc; 
+  padding: 1em 2em;
+  border: 1px solid #999;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.card-ruim {
+  background-color: #ffffff;
+  color: #e0e0e0; 
+  padding: 2em;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.6rem;
+}
+
+button:focus,
+.card-ruim:focus {
+  outline: 0.1rem solid #999; 
+}
