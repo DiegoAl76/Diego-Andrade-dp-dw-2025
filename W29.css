@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 640px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "nav main aside"
+            "footer footer footer";
+    }
+
+    header { grid-area: header; }
+    nav { grid-area: nav; }
+    main { grid-area: main; }
+    aside { grid-area: aside; }
+    footer { grid-area: footer; }
+
+}
