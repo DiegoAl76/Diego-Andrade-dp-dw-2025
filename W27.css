@@ -1,0 +1,10 @@
+button, a{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:focus, a:focus{
+    outline: 3px solid blue;
+    outline-offset: 3px;
+}
